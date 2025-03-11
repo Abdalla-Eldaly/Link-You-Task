@@ -1,4 +1,4 @@
-# LinkYou Task App
+# LinkYou Task Management App
 
 ## Overview
 This project is a task management application developed as part of a job task for **LinkYou** company. The application follows **Clean Architecture** with the **MVVM** design pattern and integrates multiple design patterns to ensure **scalability, maintainability, and modularity**.
@@ -91,7 +91,6 @@ Each layer is responsible for a specific part of the application and communicate
 ---
 
 ## 📌 Getting Started
-### 1️⃣ Clone Repo
+### 1️⃣ Clone App
 ```sh
-git clone <[repository-url](https://github.com/Abdalla-Eldaly/Link-You-Task.git)>
-
+https://github.com/Abdalla-Eldaly/Link-You-Task.git
