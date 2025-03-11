@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
@@ -103,7 +104,7 @@ class TaskCard extends StatelessWidget {
                       ),
                       const SizedBox(height: AppSize.s7_5),
                       Text(
-                        "${StringsManager.userID} ${todo.userId}",
+                        "${StringsManager.userID.tr()} ${todo.userId}",
                         style: AppTextStyles.bodySmall.copyWith(
                             color: isCompleted == true? Colors.grey.shade600 : Colors.black54),
                       ),

@@ -9,15 +9,15 @@ void showEditDialog(BuildContext context, HomeViewModel viewModel, Todos todo) {
   showDialog(
     context: context,
     builder: (context) => AlertDialog(
-      title: const Text(StringsManager.editTask),
+      title:  Text(StringsManager.editTask),
       content: TextField(
         controller: controller,
-        decoration: const InputDecoration(labelText: StringsManager.taskName),
+        decoration:  InputDecoration(labelText: StringsManager.taskName),
       ),
       actions: [
         TextButton(
           onPressed: () => Navigator.pop(context),
-          child: const Text(StringsManager.cancel),
+          child:  Text(StringsManager.cancel),
         ),
         TextButton(
           onPressed: () {
@@ -26,7 +26,7 @@ void showEditDialog(BuildContext context, HomeViewModel viewModel, Todos todo) {
             }
             Navigator.pop(context);
           },
-          child: const Text(StringsManager.save),
+          child:  Text(StringsManager.save),
         ),
       ],
     ),

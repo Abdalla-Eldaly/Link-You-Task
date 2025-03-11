@@ -33,7 +33,6 @@ class LoginScreen extends StatelessWidget {
           builder: (context, state) {
             final viewModel = LoginViewModel.get(context);
 
-            // عرض شاشة تحميل أثناء التحقق من الكاش
             if (viewModel.isCheckingCache) {
               return Center(child: CircularProgressIndicator());
             }
