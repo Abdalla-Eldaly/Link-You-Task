@@ -52,8 +52,9 @@ dependencies:
   shared_preferences:
   connectivity_plus:
   flutter_slidable:
-  cached_network_image: ^3.4.1
   easy_localization: ^3.0.7+1
+  cached_network_image:
+  mockito:
 
 
 dev_dependencies:
