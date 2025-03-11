@@ -1,4 +1,12 @@
-https://github.com/Abdalla-Eldaly/Link-You-Task/blob/73eaf2af09a9531fd17ef899e2996577e5150b6e/Screenshot%20(86).png
+## 📸 Screenshots
+
+### 🖼 Home Screen
+![Home Screen](https://github.com/Abdalla-Eldaly/Link-You-Task/blob/73eaf2af09a9531fd17ef899e2996577e5150b6e/Screenshot%20(86).png)
+
+### 🖼 Task Details
+![Task Details](https://github.com/Abdalla-Eldaly/Link-You-Task/blob/6726f995ff8dcbcc071848595c7306ecaf6c8f0e/Screenshot%20(87).png)
+
+
 
 # LinkYou Task Management App
 
