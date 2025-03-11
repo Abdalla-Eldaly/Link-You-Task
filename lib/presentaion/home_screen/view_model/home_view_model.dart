@@ -112,7 +112,7 @@ class HomeViewModel extends BaseCubit {
         emit(ContentState());
       }
     } else {
-      emitError(errorMessage: 'Failed to update task status');
+      emitError(errorMessage: 'failed to update task status');
     }
   }
 

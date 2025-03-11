@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:linkyou_task/core/common/validator/validator.dart';
@@ -37,7 +38,7 @@ class LoginScreenBody extends StatelessWidget {
                 SizedBox(
                   height: 100,
                   child: Text(
-                    StringsManager.appName,
+                    StringsManager.appName.tr(),
                     style: AppTextStyles.headlineMedium.copyWith(
                       color: ColorManager.primary,
                     ),
@@ -68,7 +69,7 @@ class LoginScreenBody extends StatelessWidget {
                         const SizedBox(height: 10),
 
                         Text(
-                          StringsManager.enterCredentials,
+                          StringsManager.enterCredentials.tr(),
                           style: AppTextStyles.bodyMedium,
                           textAlign: TextAlign.center,
                         ),
@@ -78,7 +79,7 @@ class LoginScreenBody extends StatelessWidget {
                         /// 🔹 **Username Field**
                         CustomTextField(
                           controller: viewModel.getUserNameController,
-                          label: StringsManager.username,
+                          label: StringsManager.username.tr(),
                           icon: Icons.person,
                           validator: AppValidators.validateUsername,
                         ),
@@ -88,7 +89,7 @@ class LoginScreenBody extends StatelessWidget {
                         /// 🔹 **Password Field**
                         CustomTextField(
                           controller: viewModel.getPasswordController,
-                          label: StringsManager.password,
+                          label: StringsManager.password.tr(),
                           icon: Icons.lock,
                           isPassword: true,
                           validator: AppValidators.validatePassword,
@@ -104,7 +105,7 @@ class LoginScreenBody extends StatelessWidget {
                               // TODO: Navigate to Forgot Password Screen
                             },
                             child: Text(
-                              StringsManager.forgotPassword,
+                              StringsManager.forgotPassword.tr(),
                               style: AppTextStyles.bodyMedium.copyWith(
                                 color: ColorManager.primary,
                               ),
@@ -124,7 +125,7 @@ class LoginScreenBody extends StatelessWidget {
                               viewModel.login(request,context);
                             }
                           },
-                          text: StringsManager.login,
+                          text: StringsManager.login.tr(),
                         ),
                       ],
                     ),
@@ -137,7 +138,7 @@ class LoginScreenBody extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      StringsManager.dontHaveAccount,
+                      StringsManager.dontHaveAccount.tr(),
                       style: AppTextStyles.bodyMedium,
                     ),
                     TextButton(
@@ -145,7 +146,7 @@ class LoginScreenBody extends StatelessWidget {
                         // TODO: Navigate to Sign Up Screen
                       },
                       child: Text(
-                        StringsManager.signUp,
+                        StringsManager.signUp.tr(),
                         style: AppTextStyles.bodyMedium.copyWith(
                           color: ColorManager.primary,
                         ),

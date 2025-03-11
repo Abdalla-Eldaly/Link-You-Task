@@ -1,48 +1,35 @@
+import 'package:easy_localization/easy_localization.dart';
+
 class StringsManager {
-  // General
-  static const String appName = "LinkYou";
-
-  // Login Screen
-  static const String welcomeBack = "Welcome Back!";
-  static const String enterCredentials = "Please enter your credentials to continue.";
-  static const String username = "Username";
-  static const String password = "Password";
-  static const String login = "LOGIN";
-  static const String loginSuccess = "Login Successfully";
-  static const String invalidCredentials = "Username or password is incorrect";
-  static const String dontHaveAccount = "Don't have an account?";
-  static const String signUp = "Sign Up";
-
-  // Forget Password
-  static const String retryAgain = "Try again";
-  static const String forgotPassword = "Forgot Password?";
-
-  // Create new password
-  static const String passWordText = "Create new password";
-
-  // Validations
-  static const String validationsFieldRequired = "This field is required";
-  static const String validationsValidEmail = "Enter a valid email address";
-  static const String validationsUsername = "Enter a valid user name";
-  static const String validationsPasswordSpecifications =
-      "Password must be at least 5 characters and contain letters and numbers";
-
-  //  New Strings for Task Dialog
-  static const String editTask = "Edit Task";
-  static const String taskName = "Task Name";
-  static const String cancel = "Cancel";
-  static const String save = "Save";
-  static const String userID  = "User ID:";
-  static const String delete  = "Delete";
-  static const String confirmDelete = "Are you sure you want to delete this item?";
-
-  static const String appVersion = "App Version 1.0.0";
-  static const String notAvailable = "Not Available";
-  static const String noEmail = "No Email";
-
-  // User Info
-  static const String email = "Email";
-  static const String firstName = "First Name";
-  static const String lastName = "Last Name";
-  static const String gender = "Gender";
+  static String get appName => "appName".tr();
+  static String get welcomeBack => "welcomeBack".tr();
+  static String get enterCredentials => "enterCredentials".tr();
+  static String get username => "username".tr();
+  static String get password => "password".tr();
+  static String get login => "login".tr();
+  static String get loginSuccess => "loginSuccess".tr();
+  static String get invalidCredentials => "invalidCredentials".tr();
+  static String get dontHaveAccount => "dontHaveAccount".tr();
+  static String get signUp => "signUp".tr();
+  static String get retryAgain => "retryAgain".tr();
+  static String get forgotPassword => "forgotPassword".tr();
+  static String get passWordText => "passWordText".tr();
+  static String get validationsFieldRequired => "validationsFieldRequired".tr();
+  static String get validationsValidEmail => "validationsValidEmail".tr();
+  static String get validationsUsername => "validationsUsername".tr();
+  static String get validationsPasswordSpecifications => "validationsPasswordSpecifications".tr();
+  static String get editTask => "editTask".tr();
+  static String get taskName => "taskName".tr();
+  static String get cancel => "cancel".tr();
+  static String get save => "save".tr();
+  static String get userID => "userID".tr();
+  static String get delete => "delete".tr();
+  static String get confirmDelete => "confirmDelete".tr();
+  static String get appVersion => "appVersion".tr();
+  static String get notAvailable => "notAvailable".tr();
+  static String get noEmail => "noEmail".tr();
+  static String get email => "email".tr();
+  static String get firstName => "firstName".tr();
+  static String get lastName => "lastName".tr();
+  static String get gender => "gender".tr();
 }
