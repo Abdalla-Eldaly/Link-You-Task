@@ -58,7 +58,7 @@ Each layer is responsible for a specific part of the application and communicate
 **Key Features:**
 ✔ **Implements Repository Pattern** for abstraction.  
 ✔ **Supports Offline First Strategy** using Hive & Shared Preferences.  
-✔ **Uses Retrofit/Dio** for network communication.  
+✔ **Uses Dio** for network communication.  
 ✔ **Caches API responses** to enhance performance.  
 
 ---
